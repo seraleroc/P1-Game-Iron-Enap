@@ -124,3 +124,65 @@ body {
     margin: 10px;
 }
 
+.btn {
+    width: 380px;
+    height: 68px;
+    border-radius: 12px;
+    margin: 10px;
+    font-size: 22px;
+}
+
+.grupoRespostas {
+    margin-top: 60px;
+}
+
+.hidden{
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+.centro {
+    flex-direction: column;
+    align-items: center;
+}
+
+.acertou {
+    background-color: #0EC821;
+}
+
+.errou {
+    background-color: #FF0000;
+}
+
+.venceu {
+    margin-top: 60px;
+}
+
+.perdeu {
+    margin-top: 60px;
+    width: 350px;
+    height: 480px;
+}
+
+.retorno {
+    width: 380px;
+    height: 68px;
+    border-radius: 12px;
+    margin: 10px;
+    font-size: 24px;
+    background-color: rgb(254, 135, 16);
+    margin-top: 30px;
+}
+
+.endMessage {
+    font-size: 25px;
+    background-color: #7f85aa;
+    text-align: center;
+    border-radius: 18px;
+    padding: 15px;
+    box-shadow: 4px 4px 4px rgb(77, 75, 75);
+    margin-top: 65px;
+}
