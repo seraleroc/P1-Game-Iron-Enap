@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@450   );
+
+*{ font-family: cursive;}
+
+body {
+    background-color: #0ea569; 
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.h1 {
+    background-color: #ececec;
+    text-align: center;
+    border-radius: 18px;
+    padding: 15px;
+    box-shadow: 4px 4px 4px rgb(233, 225, 225);
+}
+
+.addNome {
+    width: 340px;
+    height: 48px;
+    border-radius: 12px;
+    font-size: 25px;
+}
+
+.btnStart {
+    background-color: rgb(254, 16, 75);
+    width: 320px;
+    height: 55px;
+    border-radius: 8px;
+    margin-top: 9px;
+    font-size: 25px;
+}
+
+.nichos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 90px;
+}
+
+.introducao {
+    text-align: center;
+    background-color: #000000;
+    color: rgb(240, 240, 88);
+    border-radius: 18px;
+    padding: 15px;
+    box-shadow: 4px 4px 4px rgb(77, 75, 75);
+    font-size: 22px;
+}
+
+.menu > button{
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 15%;
+}
+
+.perguntas {
+    font-size: 35px; 
+    text-align: center;
+    border-radius: 18px;
+    padding: 15px;
+    box-shadow: 4px 4px 4px rgb(77, 75, 75);  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #becb97;
+    align-self: center;
+    margin-top: 100px;
+ }
+
+#pergunta {
+    border-radius: 18px;
+    padding: 15px;
+    box-shadow: 4px 4px 4px rgb(217, 237, 85);  
+    background-color: #517dec;
+    margin-bottom: 5%;
+}
+
+.filme {
+    background-color: #ff00008f;
+    width: 146px;
+    height: 80px;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.musica {
+    background-color: #0EC821;
+    width: 146px;
+    height: 80px;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.tv {
+    background-color: #ECE304;
+    width: 146px;
+    height: 80px;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.jogo {
+    background-color: #3973E4;
+    width: 146px;
+    height: 80px;
+    border-radius: 12px;
+    margin: 10px;
+}
+
