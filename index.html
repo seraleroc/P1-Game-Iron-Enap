@@ -1,33 +1,48 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Link com o css -->
-    <link rel="stylesheet" href="./styles/style.css"/>
-    <title>Quiz Game - P1 - IronHack-ENAP</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Quiz Game</title>
   </head>
   <body>
+    <div id="inicio" class="inicio">
+      <h1 class="h1">Para iniciar o quiz, insira seu nome</h1>
+      <input type="text" class="addNome" />
+      <button id="btnStart" class="btnStart">Play!</button>
+    </div>
 
+    <div id="nichos" class="nichos hidden">
+      <h1 class="introducao">
+        Para vencer o Quiz, mínimo de 5 acertos são necessários. Escolha o assunto das perguntas, para iniciar!
+      </h1>
+      <div class="menu">
+        <button id="nicho1" class="filme">Filmes & Séries</button>
+        <button id="nicho2" class="musica">Música</button>
+        <button id="nicho3" class="tv">Televisão</button>
+        <button id="nicho4" class="jogo">Jogos</button>
+      </div>
+    </div>
 
-    <article id="startScreen">
+    <div id="perguntas" class="perguntas hidden">
+      <div id="pergunta"></div>
+      <div class="grupoRespostas">
+        <button id="resposta1" class="btn"></button>
+        <button id="resposta2" class="btn"></button>
+        <button id="resposta3" class="btn"></button>
+        <button id="resposta4" class="btn"></button>
+      </div>
+    </div>
 
+    <div id="status" class="hide centro">
+      <div id="endMessage" class="endMessage"></div>
+      <img class="venceu" src="./assets/Win.jpg" />
+      <img class="perdeu" src="./assets/Lose.jpg" />
+      <button id="retorno" class="retorno">Jogue Novamente</button>
+    </div>
 
-        
-    </article>
-
-
-
-
-
-
-
-
-
-
-
-    <!--Link com os scripts -> arquivos .js -->
     <script src="./js/QuizGame.js"></script>
     <script src="./js/index.js"></script>
   </body>
