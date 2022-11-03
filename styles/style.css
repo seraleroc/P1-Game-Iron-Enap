@@ -3,7 +3,7 @@
 *{ font-family: cursive;}
 
 body {
-    background-color: #0ea569; 
+    background-color: #8b84dc; 
 }
 
 .inicio {
@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 190px;
 }
 
 .h1 {
@@ -54,7 +54,7 @@ body {
     border-radius: 18px;
     padding: 15px;
     box-shadow: 4px 4px 4px rgb(77, 75, 75);
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .menu > button{
@@ -90,6 +90,7 @@ body {
     box-shadow: 4px 4px 4px rgb(217, 237, 85);  
     background-color: #517dec;
     margin-bottom: 5%;
+    font-size: 24px;
 }
 
 .filme {
@@ -179,10 +180,10 @@ body {
 
 .endMessage {
     font-size: 25px;
-    background-color: #7f85aa;
+    background-color: #97e031;
     text-align: center;
     border-radius: 18px;
     padding: 15px;
     box-shadow: 4px 4px 4px rgb(77, 75, 75);
-    margin-top: 65px;
+    margin-top: 45px;
 }

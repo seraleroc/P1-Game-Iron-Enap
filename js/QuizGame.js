@@ -373,7 +373,7 @@ class Quiz {
       const venceu = document.querySelector(".venceu");
       const perdeu = document.querySelector(".perdeu");
   
-      if (this.points === 5) {
+      if (this.points >= 5) {
         let div = document.createElement("div");
         div.innerText = `
                   Parabéns, ${this.userName}! Você venceu!
